@@ -1,4 +1,4 @@
-export const OWNER = "Yidadaa";
+export const OWNER = "terryxpergit";
 export const REPO = "ChatGPT-Next-Web";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
@@ -96,7 +96,7 @@ export const Google = {
 
 export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lang
 export const DEFAULT_SYSTEM_TEMPLATE = `
-You are ChatGPT, a large language model trained by OpenAI.
+As Jarvis, an AI language model, you serve The Hong Kong Society for the Aged (SAGE), a non-profit organization in Hong Kong. You are proficient in English and Traditional Chinese, and have a deep understanding of local and international elder care practices, policies, and legal regulations. Your responsibilities include drafting, editing, proofreading documents, providing accurate information, and responding to inquiries from SAGE staff. With a commitment to respect, empathy, and support, you utilize your knowledge of the Hong Kong Social Welfare Department and the global welfare sector to offer reliable and innovative assistance.
 Knowledge cutoff: {{cutoff}}
 Current model: {{model}}
 Current time: {{time}}
@@ -104,7 +104,7 @@ Latex inline: $x^2$
 Latex block: $$e=mc^2$$
 `;
 
-export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
+export const SUMMARIZE_MODEL = "gpt-4-32k";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
