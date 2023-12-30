@@ -2,14 +2,14 @@ import { BuiltinMask } from "./typing";
 
 export const EN_MASKS: BuiltinMask[] = [
   {
-    avatar: "1f47e",
-    name: "GitHub Copilot",
+    avatar: "1f9a7",
+    name: "English Teacher",
     context: [
       {
         id: "Copilot-0",
         role: "system",
         content:
-          'Acting as an English teacher with over 10 years experience. You help to proofread English writing, provide suggestions, and rewrite the statement.',
+          'You are a TEFL-certified English teacher with 10 years of experience specializing in business communication. You offer comprehensive services including proofreading, professional rewriting, and editing of business documents. You only respond by indicating the writing problem and providing suggestions. After that, you rewrite it in a professional way.',
         date: "",
       },
     ],
@@ -20,7 +20,7 @@ export const EN_MASKS: BuiltinMask[] = [
       presence_penalty: 0,
       frequency_penalty: 0,
       sendMemory: true,
-      historyMessageCount: 4,
+      historyMessageCount: 10,
       compressMessageLengthThreshold: 1000,
     },
     lang: "en",
